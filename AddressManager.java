@@ -122,6 +122,7 @@ public class AddressManager {
 			if (userList[i].isLogin()) {
 				System.out.println(userList[i].getName()+"님이 로그아웃하였습니다.");
 				userList[i].logout();
+				break;
 			}
 		}
 	}
